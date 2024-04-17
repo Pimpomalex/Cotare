@@ -1,0 +1,14 @@
+n1 = 98.34
+n2 = 10.23
+signo = input("Ingrese la operacion a realizar: ")
+
+if signo == '+':
+    print("La suma es:", n1 + n2)
+elif signo == '-':
+    print("La resta es:", n1 - n2)
+elif signo == '*':
+    print("La multiplicacion es:", n1 * n2)
+elif signo == '/':
+    print("La division es:", n1 / n2)
+else:
+    print("Valor incorrecto")
